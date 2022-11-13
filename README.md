@@ -1,9 +1,10 @@
 # PictureToText
-Transform a picture to .txt wiht texts 
+Convert a picture to .txt wiht texts 
 
 ## Installation
 
-Download [PictureToText](https://www.google.com)
+Download [PictureToText](https://download1084.mediafire.com/1xnj48c16tfg/rntg8ah4l9btciq/PictureToText.zip)
+Wedsite [Github](https://github.com/XxAlanXDxX/PictueToTxt.git)
 
 ## Usage
 Copy a picture
