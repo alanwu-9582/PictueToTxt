@@ -3,7 +3,7 @@ Convert a picture to .txt wiht texts
 
 ## Installation
 
-Download [PictureToText](https://download1084.mediafire.com/1xnj48c16tfg/rntg8ah4l9btciq/PictureToText.zip)  
+Download [PictureToText](https://github.com/XxAlanXDxX/PictueToTxt/archive/refs/heads/main.zip)  
 Wedsite [Github](https://github.com/XxAlanXDxX/PictueToTxt.git)
 
 ## Usage

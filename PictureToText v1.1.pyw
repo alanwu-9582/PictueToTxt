@@ -111,11 +111,11 @@ def autoAdjustVal():
 #os
 import os
 def openFolder():
-    hint.config(text = "PictureToTextBot v2.1")
+    hint.config(text = "PictureToTextBot v1.1")
     os.startfile('output.txt')
 
 def opfile():
-    hint.config(text = "PictureToTextBot v2.1")
+    hint.config(text = "PictureToTextBot v1.1")
     os.startfile('saves')
 
 #pillow 
@@ -132,11 +132,11 @@ def clipBoard(): #load from ClipBoard
 
     else:
         hint.config(text = "Something Error!")
-
+        
 #win
 win = tk.Tk() 
 win.geometry('350x230')
-win.title("PictureToTxt v2.1")
+win.title("PictureToTxt v1.1")
 win.iconbitmap('.\icons\PictureToText.ico')
 win.config(bg="#eeeeee", padx = 5, pady = 5)
 
@@ -151,7 +151,7 @@ Imgframe = tk.Frame(win)
 Imgframe.pack(padx = 5, pady = 5)
 
 #hint
-hint = tk.Label(Hintframe, bg="#dddddd", font = "System 15", text = "PictureToTextBot v2.1")
+hint = tk.Label(Hintframe, bg="#dddddd", font = "System 15", text = "PictureToTextBot v1.1")
 hint.config(width = 30) 
 hint.grid(row = 0, column = 0)
 
@@ -225,3 +225,4 @@ btnFile.grid(row = 1, column = 2)
 
 #repeat
 win.mainloop()
+
