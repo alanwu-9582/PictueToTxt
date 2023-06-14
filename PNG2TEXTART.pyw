@@ -23,6 +23,7 @@ class PNG2TEXTGUI():
         self.master = master 
         self.master.geometry('620x200')
         self.master.title("PNG2TEXT")
+        self.master.iconbitmap("./assets/icon.ico")
         self.master.config(bg="#eeeeee", padx = 5, pady = 5)
 
         #Left
