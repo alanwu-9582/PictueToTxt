@@ -3,7 +3,7 @@
 使用 Python 開發的圖像處理程式，可以將 PNG 圖像傳換為文字或是 ASCII 畫
 
 ## 安裝
-直接下載 PNG2TEXTART.zip 並解壓縮即可
+直接下載 PNG2TEXTART.zip 並解壓縮然後執行 PNG2TEXTART.exe 即可
 
 ## 使用說明
 ### 載入圖片
