@@ -285,6 +285,7 @@ class m_image:
         self.image = src
         self.height, self.width, _ = self.image.shape
         self.pixelsSum = []
+        self.pixelsSumSingle = []
 
         startcalculateSum = threading.Thread(target=self.calculateSum)
         startcalculateSum.start()
@@ -295,6 +296,9 @@ class m_image:
         for i in range(height):
             for j in range(width):
                 self.pixelsSum.append(self.image[i, j].sum())
+
+                if self.image[i, j].sum() not in self.pixelsSumSingle:
+                    self.pixelsSumSingle.append(self.image[i, j].sum())
 
         self.sorted_pixelsSum = sorted(self.pixelsSum)
         self.is_progressing = False
